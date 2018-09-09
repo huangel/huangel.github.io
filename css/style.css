@@ -5,6 +5,11 @@
 /* ///////////////////////////////////////////////////////////////////// 
 // 03 - Preloader
 /////////////////////////////////////////////////////////////////////*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
 
 #preloader {
     position:fixed;
@@ -39,8 +44,12 @@ p.ps{
 	text-align: center;
 }
 
-/* The Modal (background) */
-
+.proj_label_text {
+	position: absolute;
+    bottom: -20px;
+    padding: 5px;
+    color: white;
+}
 
 /* The Close Button */
 .close {

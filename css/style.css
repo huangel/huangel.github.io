@@ -6,33 +6,33 @@
 // 03 - Preloader
 /////////////////////////////////////////////////////////////////////*/
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
 }
 
 #preloader {
-    position:fixed;
-    left:0;
-    top:0;
-    z-index:99999999999;
-    width:100%;
-    height:100%;
-    overflow:visible;
-    background: #fff url('../img/preloader.gif') no-repeat center center;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:99999999999;
+	width:100%;
+	height:100%;
+	overflow:visible;
+	background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
 .status {
-    width: 100%;
-    height: 100%;
-    font-family: Tahoma;
+	width: 100%;
+	height: 100%;
+	font-family: Tahoma;
 	font-size:30px;
 	color:'#FFEA82';
 }
 
 .status > svg {
-    width: 100%;
-    display: block;
+	width: 100%;
+	display: block;
 
 }
 
@@ -46,24 +46,24 @@ p.ps{
 
 .proj_label_text {
 	position: absolute;
-    bottom: -20px;
-    padding: 5px;
-    color: white;
+	bottom: -20px;
+	padding: 5px;
+	color: white;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 /* ==========================================================================
@@ -500,9 +500,12 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/pic.JPG') right bottom no-repeat;
-	background-size: contain;
+	height: 100%; 
+	/* Center and scale the image nicely */
+	background-position: center;
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
 	padding:0 0 210px 0;
-	height:auto;
 	background-color: #FBFBFB;
 }
 .hero h1 {
@@ -615,7 +618,7 @@ h1.arrow {
 	font-weight: bold;
 }
 h1.arrow span {
-    color: #E04343;
+	color: #E04343;
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
@@ -630,17 +633,17 @@ h1.arrow span {
 }
 
 .color-bg a {
-    color: #FFE800;
+	color: #FFE800;
 }
 .color-bg h6, .color-bg p {
-    color: white;
+	color: white;
 }
 .color-bg h6::after{
 	border-color: #fff;
 }
 .color-bg .weight-outline-btn {
-    color: white;
-    border-color: white;
+	color: white;
+	border-color: white;
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
@@ -657,10 +660,10 @@ h1.arrow span {
 }
 
 .color-bg h1.arrow span {
-    color: #FFE800;
+	color: #FFE800;
 }
 .color-bg h1.arrow {
-    color: #FFF;
+	color: #FFF;
 }
 
 /* ==========================================================================Services========================================================================== */
@@ -672,9 +675,9 @@ h1.arrow span {
 	position: relative;
 	width:175px;
 	height:175px;
-    margin: 6px 20px 20px;
-    display: inline-block;
-    text-align: center;
+	margin: 6px 20px 20px;
+	display: inline-block;
+	text-align: center;
 	vertical-align: top;
 	strong {
 		position: absolute;
@@ -931,7 +934,7 @@ img.grayscale:hover {
 }
 
 .subscribe input[type=text]:focus {
-    outline: none;
+	outline: none;
 }
 .subscribe input[type=submit] {
 	background: #FFE800;
@@ -1157,18 +1160,18 @@ ul.slides li {
 	font-weight: bold;
 }
 .flex-control-paging li a.flex-active {
-    background: #E04343;
-    border-color: #E04343;
+	background: #E04343;
+	border-color: #E04343;
 }
 
 .color-bg .flex-control-paging li a{
-    background: white;
-    border-color: white;
+	background: white;
+	border-color: white;
 }
 
 .color-bg .flex-control-paging li a.flex-active {
-    background: #FFE800;
-    border-color: #FFE800;
+	background: #FFE800;
+	border-color: #FFE800;
 }
 /* ==========================================================================Waypoints========================================================================== */
 .wp1,.wp2,.wp3,.wp4,.wp5,.wp6 {
@@ -1270,31 +1273,31 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	.inner {
-    padding-top: 10px;
-    text-align: center;
+	padding-top: 10px;
+	text-align: center;
 	}
 
 	.hero h3 {
-	    letter-spacing: 10px;
+		letter-spacing: 10px;
 	}
 
 
 	.hero {
-	    padding-bottom: 0;
+		padding-bottom: 0;
 	}
 
 	.subscribe input[type=text] {
-	    width: 50%;
-	    margin-bottom: 30px;
+		width: 50%;
+		margin-bottom: 30px;
 	}
 
 	.btn-send {
-	    float: none;
+		float: none;
 	
-	    margin-bottom: 80px;
+		margin-bottom: 80px;
 	}
 	.effects .img {
-    	margin-bottom: 15px;
+		margin-bottom: 15px;
 	}
 	.show-menu .icon-list a {
 		display: block;
@@ -1311,10 +1314,10 @@ ul.slides li {
 
 @media screen and (max-width:991px) {
 	.hero {
-    	padding: 0px;
+		padding: 0px;
 	}
 
 	.subscribe {
-	    padding-bottom: 40px;
+		padding-bottom: 40px;
 	}
 }
